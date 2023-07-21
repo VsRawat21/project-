@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.shopping-cart {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+  margin-top: 70px;
+  box-shadow: 4px 4px 20px black;
+}
+
+.shopping-cart h2 {
+  margin-top: 0;
+}
+
+.total-price {
+  font-weight: bold;
+}
+
+ul li #cart_button {
+  margin-left: 20px;
+  margin-top: 10px;;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px black;
+}
+
